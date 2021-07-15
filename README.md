@@ -1,1 +1,0 @@
-https://ElKarabino.github.io/rsschool-cv/cv
