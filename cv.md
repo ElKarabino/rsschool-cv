@@ -7,7 +7,7 @@ I have worked in international spedition company for 4 years. I know hot to deli
                 *CSS 
                 *Javascript
                 *Git
-**experience**: Forwarder *Serpantin-Logistic sp. z o. o.*               (april 2017 - june 2021)
+**experience**: Forwarder *Serpantin-Logistic sp. z o. o.* (april 2017 - june 2021)
                 Forwarder *ОДО Серпантин-Логистика* (june 2015 - march 2017)
                 ADC Assistant *KPMG Minsk* (december 2014 - april 2015)
 **education**:  **Belarusian State Economic University**
