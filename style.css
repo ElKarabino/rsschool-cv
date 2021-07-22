@@ -1,15 +1,46 @@
 header {
     text-align: center;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
 }
 section {
     text-align: center;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
 }
 footer {
+    text-align: center; 
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
+}
+summary {
+    text-align: center; 
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
+}
+article {
     text-align: center;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto;
 }
 ol { 
-    width: 450px; margin: auto; 
+    display:table; 
+    margin:0 auto;
 }
 ul { 
-    width: 300px; margin: auto; 
+    display:table; 
+    margin:0 auto;
+}
+.gradient {
+    background: linear-gradient(to top, #cfe7fa, #FC7070);  
 }
