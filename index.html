@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         <title>curriculum vitae</title>
     </head>
     <body class="container">
@@ -13,6 +16,7 @@
                     <li class="header_item"><a href="#biography">Information</a></li>
                     <li class="header_item"><a href="#skills">Skills</a></li>
                     <li class="header_item"><a href="#javascript">Javascript</a></li>
+                    <li class="header_item"><a href="#projects">Projects</a></li>
                     <li class="header_item"><a href="#experience">Experience</a></li>
                     <li class="header_item"><a href="#education">Education</a></li>
                     <li class="header_item"><a href="#languages">Languages</a></li>
@@ -33,7 +37,7 @@
                         </ul>
                 </div>
             </section>
-            <section class="gradient" id="biography">
+            <section  id="biography">
                 <div class="wrapper">
                     <h2>Information about me</h2>
                         I have worked in international spedition company for 4 years.<br>I know hot to deliver cargo from Europe to Russia,
@@ -45,14 +49,14 @@
                 <div class="wrapper">
                     <h2>Skills</h2>
                         <ul>
-                            <li class="skills_item">HTML</li>
-                            <li class="skills_item">CSS</li>
-                            <li class="skills_item">Javascript</li>
-                            <li class="skills_item">Git</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Git</li>
                         </ul>
                 </div>
             </section>
-            <section class="gradient" id="javascript"> 
+            <section id="javascript"> 
                 <div class="wrapper">
                     <h2>Javascript</h2>
                     <span>function sumTriangularNumbers(n) { <br>
@@ -62,6 +66,13 @@
                           } <br>
                           return total; <br>
                       };</span>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="wrapper">
+                    <h2>My projects</h2>
+                        <a href="https://rolling-scopes-school.github.io/elkarabino-JSFEPRESCHOOL/drum-kit/">Drum Kit.</a> It is simple music application. The main concepts presented in the application are DOM, key events and CSS animations. <br>
+                        <a href="https://rolling-scopes-school.github.io/elkarabino-JSFEPRESCHOOL/museum/">Museum.</a> It is landing page of the main museum in Paris, Louvre. HTTML5, CSS3 and Flexbox was used to create this page
                 </div>
             </section>
             <section id="experience">
@@ -74,15 +85,15 @@
                         </ol>
                 </div>    
             </section>
-            <section class="gradient" id="education"> 
+            <section  id="education"> 
                 <div class="wrapper">
                     <h2>Education</h2>
                         <ul>
-                            <li><b>Belarusian State Economic University</b><br>
+                            <li><h3>Belarusian State Economic University</h3>
                                 faculty of management<br>
                                 economic information<br>
                                 (2010 - 2015)</li>
-                            <li><b>RS School</b><br>
+                            <li><h3>RS School</h3>
                                 Javascript Frontend<br>
                                 Stage 0<br>
                                 (july 2021 - present)</li>
@@ -99,7 +110,7 @@
                         </ul>
                 </div>
             </section>
-            <section class="gradient" id="interests">
+            <section  id="interests">
                 <div class="wrapper">
                     <h2>Interests</h2>
                         <ul>
@@ -110,10 +121,10 @@
                 </div> 
             </section>
         </main>
-        <footer>
-            <p><a href="https://github.com/ElKarabino">Github</a><br></p>
+        <footer class="footer">
+            <span><a href="https://github.com/ElKarabino">Github</a></span>
             <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Rs School" width="100" height="100"></a>
-            <p>2021</p>
+            <span>2021</span>
         </footer>
     </body>
 </html>
