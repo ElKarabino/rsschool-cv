@@ -1,3 +1,4 @@
+
 nav {
     text-align: center;
     
@@ -31,11 +32,3 @@ footer {
 ol { 
     display:table; 
     margin:0 auto;
-}
-ul { 
-    display:table; 
-    margin:0 auto;
-}
-.gradient {
-    background: linear-gradient(to top, #cfe7fa, #FC7070);  
-}
