@@ -24,3 +24,27 @@ body {
     color: #FFFFFF;
     font-weight: 700;
 }
+
+.main_container {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left_side {
+    width: 500px;
+    background-color: #1e2939;
+    height: 1000px;
+    
+}
+
+.portrait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
