@@ -34,8 +34,7 @@ body {
 .left_side {
     width: 500px;
     background-color: #1e2939;
-    height: 1000px;
-    
+    color: #FFFFFF;
 }
 
 .portrait {
@@ -45,6 +44,45 @@ body {
 }
 .title {
     font-size: 30px;
-    color: #FFFFFF;
     font-weight: 700;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.subtitle-left {
+    font-size: 24px;
+    font-weight: 700;
+}
+.contacts_list {
+    list-style-type: none;
+}
+.contacts_item {
+    font-size: 18px;
+    font-weight: 400;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills_list {
+    list-style-type: none;
+}
+.skills_item {
+    padding-bottom: 20px;
+}
+
+.language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.language_list {
+    list-style-type: none;
+}
+.language_item {
+    padding-bottom: 20px;
 }
