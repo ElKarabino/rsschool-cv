@@ -1,96 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        <title>curriculum vitae</title>
-    </head>
-    <body>
-        <nav>
-            <a href="#contact">Contact</a>
-            <a href="#information">Information</a>
-            <a href="#skills">Skills</a>
-            <a href="#javascript">Javascript</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#languages">Languages</a>
-            <a href="#interests">Interests</a>
-        </nav>
-        <header id="contact">
-           <img src='https://s1.hostingkartinok.com/uploads/thumbs/2021/07/c7175cac45f500d3da9363b06f78b6fc.png' alt='avatar'>
-            <h1>Stanislau Karbanovich</h1>
-            <h2>Contact information</h2>
-            <ul>
-                <li><i>telephone: </i>+48 570 557 636</li>
-                <li><i>email: </i>karbanovichstanislav@gmail.com</li>
-                <li><i>linkedin: </i>linkedin.com/in/stanislaukarbanovich</li>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#Summary" class="nav_link">Summary</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Contacts" class="nav_link">Contacts</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Skills" class="nav_link">Skills</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Education" class="nav_link">Education</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Code" class="nav_link">Code</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Language" class="nav_link">Language</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Projects" class="nav_link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article>
+            <h1 class="title"> Hello, It's curricilum vitae</h1>
+        </article>
+        <div class="main_container">
+            <aside class="left_side">
+                <section class="portrait">
+                    <img alt="portrait" src="me.jpg" width="500" height="350">    
+                    <h2 class="subtitle_left">Stanislau Karbanovich </h2>   
+                </section>
+                <section id="Conacts" class="contacts">
+                    <h2 class="subtitle_left">Contacts</h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">karbanovichstanislav@gmail.com</li>
+                        <li class="contacts_item">+48570557636</li>
+                        <li class="contacts_item">@El_Karabino</li>
+                    </ul>
+                </section>
+                <section id="Skills" class="skills">
+                    <h2 class="subtitle_left">Skills</h2>
+                    <ul class="skills_list">
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS</li>
+                        <li class="skills_item">Javascript</li>
+                        <li class="skills_item">Git</li>
+                    </ul>
+                </section>
+                <section id="Language" class="language">
+                    <h2 class="subtitle_left">Language</h2>
+                    <ul class="language_list">
+                        <li class="language_item"><i>English</i> - B1</li>
+                        <li class="language_item"><i>Polish</i> - A2</li>
+                        <li class="language_item"><i>Russian</i> - native</li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="right_side">
+                <section id="Summary" class="summary">
+                    <h2 class="subtitle_right">Summary</h2>
+                    <p class="summary_text">I have been working in the field of international transportation for 6 years. I know how to deliver goods from Europe to Russia and back, what documents should be prepared and what customs procedures should be carried out. But given the current situation in the world, I decided to change the field of activity and try myself in front-end development </p>
+                </section>
+                <section id="Education" class="education">
+                    <h2 class="subtitle_right">Education</h2>
+                    <ul>
+                        <li> Secondary school №138 in Minsk <b>2000-2010</b></li>
+                        <li> Belarusian State Economic University (economic informatics) <b>2010-2015</b></li>
+                        <li> RS School (Javascript) <b>2022-...</b></li>
+                    </ul>
+                </section>
+                <section id="Code" class="code">
+                    <h2 class="subtitle_right">Code</h2>
+                    <code>
+                        function even_or_odd(number) { <br>
+                            if (number % 2 == 0) { <br>
+                              return "Even" <br>
+                            } <br>
+                            else { <br>
+                              return "Odd" <br>
+                            } <br>
+                          } <br>
+                    </code>
+                </section>
+                <section id="Projects" class="projects">
+                    <h2 class="subtitle_right">Projects</h2>
+                    <p>
+                        <a href="https://rolling-scopes-school.github.io/elkarabino-JSFEPRESCHOOL/portfolio/"><img src="portfolio.png" alt="Portfolio" width="200" height="100"></a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_container">
+            <ul class="footer_list">
+                <li class="footer_item">
+                    <a href="https://github.com/ElKarabino"><img src="GitHub_Logo.png" alt="github" width="150" height="60"></a>
+                </li>
+                <li class="footer_item">2022</li>
+                <li class="footer_item">
+                    <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rsschool" width="100" height="60"></a>
+                </li>
             </ul>
-        </header>
-        <section class="gradient" id="information">
-            <h2>Information about me</h2>
-            I have worked in international spedition company for 4 years.<br>I know hot to deliver cargo from Europe to Russia,
-            what documents needed to make export custom declaration.<br>But now i'm interested in Frontent Development. 
-            I am learning Javascript and my goal is to reach the position of Junior Frontend Developer
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git</li>
-            </ul>
-        </section>
-        <section class="gradient" id="javascript"> 
-            <h2>Javascript</h2>
-            <code>console.log((Infinity+Infinity)/10);</code>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <ol>
-                <li>Assistant <b>BSH sp. z o. o.</b>(august 2021 - now)</li>
-                <li>Forwarder <b>Serpantin-Logistic sp. z o. o.</b>(april 2017 - june 2021)</li>
-                <li>Forwarder <b>ОДО Серпантин-Логистика</b> (june 2015 - march 2017)</li>
-                <li>ADC Assistant <b>KPMG Belarus</b>(december 2014 - april 2015)</li>
-            </ol>
-        </section>
-        <section class="gradient" id="education"> 
-            <h2>Education</h2>
-            <ul>
-                <li><b>Belarusian State Economic University</b><br>
-                    faculty of management<br>
-                    economic information<br>
-                    (2010 - 2015)</li>
-                <li><b>RS School</b><br>
-                    Javascript Frontend<br>
-                    Stage 0<br>
-                    (december 2021 - present)</li>
-             </ul>
-        </section>
-        <section id="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>English - B1</li>
-                <li>Polish - B1</li>
-                <li>Russian - native</li>
-            </ul>
-        </section>
-        <section class="gradient" id="interests"> 
-            <h2>Interests</h2>
-            <ul>
-                <li>Contract bridge</li>
-                <li>Travelling</li>
-                <li>Video games</li>
-            </ul>
-        </section>
-        <footer>
-            <p><a href="https://github.com/ElKarabino">Github</a><br></p>
-
-            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Rs School" width="100" height="100"></a>
-            <span>2021</span>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
 </html>
