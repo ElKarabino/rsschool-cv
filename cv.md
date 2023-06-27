@@ -16,3 +16,10 @@
 * Javascript
 * Git
 
+## Education 
+* High School №138 Minsk, Belarus (2000-2010)
+* BSEU economic informatics (2010-2015)
+
+## Languages
+* English - B1
+* Polish - A2
