@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+.no_scroll {
+    overflow: hidden;
+}
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(40, 76, 175);
+    color: white;
+    padding: 30px;
+}
+.header_text {
+    text-align: center;
+    font-size: 25px;
+}
+.title {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+.nav {
+    background-color:rgb(24, 8, 68);
+    color: white;
+    padding: 30px;
+}
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.cv {
+    display: flex;
+}
+.aside {
+    width: 500px;
+    background-color:blueviolet;
+    padding: 30px;
+    color:white;
+}
+.subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.contacts {
+    margin-bottom: 50px;
+}
+.contacts_item {
+    margin-bottom: 10px;
+}
+.skills {
+    margin-bottom: 50px;
+}
+.skills_item {
+    margin-bottom: 10px;
+}
+.languages {
+    margin-bottom: 50px;
+}
+.languages_item {
+    margin-bottom: 10px;
+}
+.interests {
+    margin-bottom: 50px;
+}
+.interests_item {
+    margin-bottom: 10px;
+}
+.main {
+    width: 700px;
+    text-align: center;
+    padding: 30px;
+}
+.main_subtitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.education {
+    margin-bottom: 50px;
+}
+.education_item {
+    margin-bottom: 10px;
+}
+.work_experience {
+    margin-bottom: 50px;
+}
+.work_item {
+    margin-bottom: 10px;
+}
+.code_example {
+    margin-bottom: 50px;
+}
+.my_projects {
+    margin-bottom: 50px;
+}
+.projects_item {
+    margin-bottom: 10px;
+}
+.projects_link {
+    text-decoration: none;
+    color:black;
+}
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(40, 76, 175);
+    color: white;
+    padding: 30px;
+}
+.footer_link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.footer_text {
+    font-size: 24px;
+}
+.footer_img {
+    height: 100px;
+    width: 100px;
+}
