@@ -35,7 +35,6 @@ body {
 }
 .title {
     font-size: 48px;
-    margin-bottom: 30px;
 }
 .avatar {
     height: 200px;
@@ -57,7 +56,7 @@ body {
     display: flex;
 }
 .aside {
-    width: 500px;
+    max-width: 500px;
     background-color:blueviolet;
     padding: 30px;
     color:white;
@@ -83,9 +82,6 @@ body {
 }
 .languages_item {
     margin-bottom: 10px;
-}
-.interests {
-    margin-bottom: 50px;
 }
 .interests_item {
     margin-bottom: 10px;
@@ -115,14 +111,17 @@ body {
     margin-bottom: 50px;
 }
 .my_projects {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .projects_item {
     margin-bottom: 10px;
+    
 }
 .projects_link {
     text-decoration: none;
     color:black;
+    font-style: italic;
+
 }
 .footer_wrapper {
     display: flex;
@@ -130,7 +129,7 @@ body {
     justify-content: space-between;
     background-color:rgb(40, 76, 175);
     color: white;
-    padding: 30px;
+    padding: 20px;
 }
 .footer_link {
     text-decoration: none;

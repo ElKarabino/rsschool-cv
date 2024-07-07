@@ -1,1 +1,111 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <h1 class="title">Stanislau Karbanovich</h1>
+                <img class="avatar" src="doggo.jpg" alt="dog">
+            </div>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item">Contacts</li>
+                    <li class="nav_item">Skills</li>  
+                    <li class="nav_item">Languages</li>
+                    <li class="nav_item">Interests</li>
+                    <li class="nav_item">Education</li>
+                    <li class="nav_item">Experience</li>
+                    <li class="nav_item">Code</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="cv">
+            <aside class="aside">
+                <div class="contacts">
+                    <h2 class="subtitle">Contacts</h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">karbanovichstanislav@gmailcom</li>
+                        <li class="contacts_item">+48570557636</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2 class="subtitle">Skills</h2>
+                    <ul class="skills_list">
+                        <li class="skills_item">Git</li>
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS</li>
+                        <li class="skills_item">Javascript</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2 class="subtitle">Languages</h2>
+                    <ul class="languages_list">
+                        <li class="languages_item">English (B1)</li>
+                        <li class="languages_item">Polish (B1)</li>
+                        <li class="languages_item">Russian (native)</li>
+                    </ul>
+                </div>
+                <div class="interests">
+                    <h2 class="subtitle">Interests</h2>
+                    <ul class="interests_list">
+                        <li class="interests_item">Videogames</li>
+                        <li class="interests_item">Contract bridge</li>
+                        <li class="interests_item">Hiking</li>
+                    </ul>
+                </div>
+            </aside>
+            <main class="main">
+                <div class="education">
+                    <h2 class="subtitle">Education</h2>
+                    <ul class="education_list">
+                        <li class="education_item">School №138 (2000-2010)</li>
+                        <li class="education_item">BSEU economic informatics (2010-2015)</li>
+                    </ul>
+                </div>
+                <div class="work_experience">
+                    <h2 class="subtitle">Experience</h2>
+                    <ul class="work_list">
+                        <li class="work_item">KPMG Belarus, ADC assistant (2014-2015)</li>
+                        <li class="work_item">Serpantin-Logistic Sp. z o. o. (2015-2021)</li>
+                        <li class="work_item">BSH Lodz Sp. z o. o., control quality operator (2021-2023)</li>
+                        <li class="work_item">EGO Sp. z o. o., testing machine operator (2023-nowadays)</li>
+                    </ul>
+                </div>
+                <div class="code_example">
+                    <h2 class="subtitle">Code example</h2>
+                    <code>
+                    module.exports = function reverse (n) {
+                    let num = Math.abs(n)
+                    return Number(num.toString(10).split('').reverse().join(""));
+                    }
+                    </code>
+                </div>
+                <div class="my_projects">
+                    <h2 class="subtitle">My projects</h2>
+                    <a class="projects_link" href="https://elkarabino.github.io/cssBayan/cssBayan/">Memes on CSS and HTML </a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer_wrapper">
+                <a class="footer_link">Github</a>
+                <p class="footer_text">2024</p>
+                <a href="https://rs.school/courses/javascript-ru">
+                    <img class="footer_img" src="rs-school.svg" alt="rsschool">
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
