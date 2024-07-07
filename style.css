@@ -35,7 +35,6 @@ body {
 }
 .title {
     font-size: 48px;
-    margin-bottom: 30px;
 }
 .avatar {
     height: 200px;
@@ -83,9 +82,6 @@ body {
 }
 .languages_item {
     margin-bottom: 10px;
-}
-.interests {
-    margin-bottom: 50px;
 }
 .interests_item {
     margin-bottom: 10px;
